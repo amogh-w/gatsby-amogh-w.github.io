@@ -14,12 +14,18 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
     "gatsby": "^3.8.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "tailwind-nord": "^1.2.0"
   },
   "devDependencies": {
-    "prettier": "2.3.2"
+    "autoprefixer": "^10.2.6",
+    "gatsby-plugin-postcss": "^4.8.0",
+    "postcss": "^8.3.5",
+    "prettier": "2.3.2",
+    "tailwindcss": "^2.2.4"
   },
   "repository": {
     "type": "git",
