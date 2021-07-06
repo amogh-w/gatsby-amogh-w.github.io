@@ -5,3 +5,7 @@
 #gatsby-focus-wrapper {
   @apply min-h-screen;
 }
+
+.link {
+  @apply text-nord9 hover:text-nord10 transition-colors;
+}

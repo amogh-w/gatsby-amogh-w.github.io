@@ -1,6 +1,8 @@
 import React from "react"
 import useDarkMode from "use-dark-mode"
 
+import { MdBrightness2, MdBrightness5 } from "react-icons/md"
+
 const ThemeToggle = () => {
   const theme = useDarkMode(false, {
     classNameDark: "dark",
@@ -11,7 +13,7 @@ const ThemeToggle = () => {
   return (
     <div>
       <button onClick={theme.toggle}>
-        {theme.value ? "Light Mode" : "Dark Mode"}
+        {theme.value ? <MdBrightness5 /> : <MdBrightness2 />}
       </button>
     </div>
   )
