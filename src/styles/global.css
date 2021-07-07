@@ -9,3 +9,7 @@
 .link {
   @apply text-nord9 hover:text-nord10 transition-colors;
 }
+
+.paper {
+  @apply bg-white dark:bg-nord1 rounded shadow transition-all;
+}

@@ -1,8 +1,8 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
 
 import Home from "../layouts/Home"
+import CustomLink from "../components/CustomLink"
 import TextToIcon from "../components/TextToIcon"
 import ThemeToggle from "../components/ThemeToggle"
 
@@ -98,9 +98,9 @@ const Index = () => {
       <div className="flex flex-col items-center text-2xl md:text-3xl lg:text-4xl italic font-bold">
         {navLinks.map(link => {
           return (
-            <Link key={link.id} className="link" to={link.href}>
+            <CustomLink key={link.id} className="link" to={link.href}>
               {link.label}
-            </Link>
+            </CustomLink>
           )
         })}
       </div>
